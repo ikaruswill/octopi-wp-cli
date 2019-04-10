@@ -1,4 +1,4 @@
-FROM wordpress:cli-2-php7.2
+FROM wordpress:cli-2.1-php7.2
 # Not using ENV PHP_USER=www-data due to no env variable substitution in ADD --chown
 
 ARG uid=1000
